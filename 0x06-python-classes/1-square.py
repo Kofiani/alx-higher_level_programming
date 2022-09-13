@@ -3,6 +3,8 @@
 
 
 class Square:
-    ''' Create __size without type or value'''
-    __init__(self, x):
+    ''' create a new instnce size and make like
+    __size private'''
+
+    def __init__(self, x):
         self.__size = x
