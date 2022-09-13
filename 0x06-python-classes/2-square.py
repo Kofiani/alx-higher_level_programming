@@ -3,6 +3,8 @@
 
 
 class Square:
+    '''create an int type and negative value checker'''
+
     def __init__(self, size=0):
         if not type(size) is int:
             raise TypeError('size must be an integer')
