@@ -4,5 +4,4 @@
 
 class Square:
     ''' Create __size without type or value'''
-    __init__(self):
-        self.__size = None
+    __size = None
