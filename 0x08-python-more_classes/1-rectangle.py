@@ -3,14 +3,18 @@
 
 
 class Rectangle:
-    ''' Create a Rectangle with height and width '''
+    ''' Create a Rectangle '''
 
     def __init__(self, width=0, height=0):
+        ''' construct instance variables width and height '''
+
         self.width = width
         self.height = height
 
     @property
     def width(self):
+        ''' get width '''
+
         return self.__width
 
     @width.setter
@@ -23,6 +27,8 @@ class Rectangle:
             self.__width = value
 
     @property
+    ''' get height '''
+
     def height(self):
         return self.__height
 
