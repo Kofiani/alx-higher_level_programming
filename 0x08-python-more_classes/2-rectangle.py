@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 ''' create a new Rectangle class'''
 
+
 class Rectangle:
     ''' create class instance '''
     def __init__(self, width=0, height=0):
